@@ -6,16 +6,16 @@
 
 <script>
 export default {
-  name: 'LgButton',
+  name: "LgButton",
   methods: {
-    handleClick (evt) {
-      this.$emit('click', evt)
+    handleClick(evt) {
+      console.log("click");
+      this.$emit("click", evt);
       evt.preventDefault();
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style>
-
 </style>
