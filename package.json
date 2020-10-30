@@ -14,7 +14,8 @@
     "lerna": "lerna publish",
     "build:prod": "cross-env NODE_ENV=production rollup -c",
     "build:dev": "cross-env NODE_ENV=development rollup -c",
-    "clear": "lerna clean"
+    "clear": "lerna clean",
+    "plop": "plop"
   },
   "keywords": [],
   "author": "",
@@ -34,6 +35,7 @@
     "cross-env": "^7.0.2",
     "jest": "^26.6.1",
     "lerna": "^3.22.1",
+    "plop": "^2.7.4",
     "react-is": "^17.0.1",
     "rimraf": "^3.0.2",
     "rollup": "^2.32.1",
